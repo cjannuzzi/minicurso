@@ -7,18 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>Conheça Rick and Morty</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script> 
+        <script src="script.js" defer></script> 
     </head>
     <body>
         <main>
             <section>
                 <img alt="Imagem do Rick fazendo careta na cara do Morty" src="https://images.tcdn.com.br/img/img_prod/697730/adesivo_lateral_vidro_caminhao_carro_decorativo_rick_and_morty_1147486360_1_20201210150106.jpg">
                 <ul id="detalhes-container">
-                    <li id="nome">Nome: </li>
-                    <li id="especie">Espécie: </li>
-                    <li id="status">Está vivo? </li>
+                    <li>Nome: <p id="nome"></p> </li>
+                    <li>Espécie: <p id="especie"></p></li>
+                    <li>Está vivo? <p id="status"></p></li>
                 </ul>
-                <button>Conheça um Personagem Rick and Morty</button>
+                <button id="botao">Conheça um Personagem Rick and Morty</button>
             </section>
         </main>
     </body>
