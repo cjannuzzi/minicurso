@@ -23,6 +23,7 @@ pegarPersonagem = () => {
         nomeDoPersonagem.innerHTML = data.name;
         especie.innerHTML = data.species;
         condicao.innerHTML= data.status;
+        // quando clica, gera um numero aleatório que muda o nome la no html referenciando o personagem
     }); 
         // fetch é uma função que faz uma chamada, um endereço tipo "fetch liga p API do rick e faça algo"
         // `` dois acentos é onde coloca o endereço da API rick
